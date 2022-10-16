@@ -48,11 +48,13 @@
   padding: 0px;
 }
 
-.tasks-area__list-item, .tasks-area__title {
+.tasks-area__list-item,
+.tasks-area__title {
   list-style: none;
 }
 
-.tasks-area__input-text,.tasks-area__button{
+.tasks-area__input-text,
+.tasks-area__button{
   outline: none;
 }
 
@@ -133,7 +135,8 @@
   width: 226px;
 }
 
-.tasks-area__list-item > .tasks-area__input-text {
+.tasks-area__list-item >
+.tasks-area__input-text {
   width: 226px;
 }
 
@@ -148,21 +151,25 @@
 }
 
 /* Completed */
-.tasks-area__completed-tasks .tasks-area__label-task-name {
+.tasks-area__completed-tasks
+.tasks-area__label-task-name {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.tasks-area__list-item .tasks-area__input-text {
+.tasks-area__list-item
+.tasks-area__input-text {
   display: none;
 }
 
-.tasks-area__list-item-edit .tasks-area__input-text {
+.tasks-area__list-item-edit
+.tasks-area__input-text {
   display: inline-block;
   width: 224px;
 }
 
-.tasks-area__list-item-edit .tasks-area__label-task-name {
+.tasks-area__list-item-edit
+.tasks-area__label-task-name {
   display: none;
 }
