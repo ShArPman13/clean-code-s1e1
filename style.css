@@ -18,7 +18,8 @@
 }
 
 @media (max-width:768px) {
-  .top-part{ text-align: center;
+  .top-part{
+    text-align: center;
 }
 }
 .todo-list__tasks-area {
