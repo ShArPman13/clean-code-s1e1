@@ -8,49 +8,57 @@
 
 <body class="todo-list">
 
-  <div class="todo-list__top-part top-part">
+  <header class="todo-list__top-part top-part">
     <img src="./eisenhower-matrix.jpg" class="top-part__img">
     <a class="top-part__link" href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?
     </a>
-  </div>
+  </header>
 
-  <div class="todo-list__tasks-area tasks-area">
-    <p id="tasks-area__add-block">
-      <label for="tasks-area__new-task" class="tasks-area__title">Add Item</label>
+  <main class="todo-list__tasks-area tasks-area">
+
+    <section id="tasks-area__add-block">
+      <h3 class="tasks-area__title">Add Item</h3>
       <div class="tasks-area__wrapper">
         <input id="tasks-area__new-task"class="tasks-area__input-text tasks-are__new-task-input" type="text">
         <button class="tasks-area__button">Add</button>
       </div>
-    </p>
-    <h3 class="tasks-area__title">Todo</h3>
-    <ul id="tasks-area__incomplete-tasks" class="tasks-area__list tasks-area__incomplete-tasks">
-      <li class="tasks-area__list-item">
-        <input type="checkbox" class="tasks-area__checkbox">
-        <label class="tasks-area__label-task-name">Pay Bills</label>
-        <input type="text" class="tasks-area__input-text">
-        <button class="tasks-area__button tasks-area__button-edit">Edit</button>
-        <button class="tasks-area__button tasks-area__button-delete"><img src="./remove.svg" class="tasks-area__btn-img"></button>
-      </li>
-      <li class="tasks-area__list-item tasks-area__list-item-edit">
-        <input type="checkbox" class="tasks-area__checkbox">
-        <label class="tasks-area__label-task-name">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="tasks-area__input-text">
-        <button class="tasks-area__button tasks-area__button-edit">Save</button>
-        <button class="tasks-area__button tasks-area__button-delete"><img src="./remove.svg" class="tasks-area__btn-img"></button>
-      </li>
-    </ul>
-    <h3 class="tasks-area__title">Completed</h3>
-    <ul id="tasks-area__completed-tasks" class="tasks-area__list tasks-area__completed-tasks">
-      <li class="tasks-area__list-item">
-        <input type="checkbox" class="tasks-area__checkbox" checked>
-        <label class="tasks-area__label-task-name">See the Doctor</label>
-        <input type="text" class="tasks-area__input-text">
-        <button class="tasks-area__button tasks-area__button-edit">Edit</button>
-        <button class="tasks-area__button tasks-area__button-delete"><img src="./remove.svg" class="tasks-area__btn-img"></button>
-      </li>
-    </ul>
-  </div>
+    </section>
+
+    <section class="tasks-area__incomplete-block">
+      <h3 class="tasks-area__title">Todo</h3>
+      <ul id="tasks-area__incomplete-tasks" class="tasks-area__list tasks-area__incomplete-tasks">
+        <li class="tasks-area__list-item">
+          <input type="checkbox" class="tasks-area__checkbox">
+          <label class="tasks-area__label-task-name">Pay Bills</label>
+          <input type="text" class="tasks-area__input-text">
+          <button class="tasks-area__button tasks-area__button-edit">Edit</button>
+          <button class="tasks-area__button tasks-area__button-delete"><img src="./remove.svg" class="tasks-area__btn-img"></button>
+        </li>
+        <li class="tasks-area__list-item tasks-area__list-item-edit">
+          <input type="checkbox" class="tasks-area__checkbox">
+          <label class="tasks-area__label-task-name">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="tasks-area__input-text">
+          <button class="tasks-area__button tasks-area__button-edit">Save</button>
+          <button class="tasks-area__button tasks-area__button-delete"><img src="./remove.svg" class="tasks-area__btn-img"></button>
+        </li>
+      </ul>
+    </section>
+
+    <section class="tasks-area__complete-block">
+      <h3 class="tasks-area__title">Completed</h3>
+      <ul id="tasks-area__completed-tasks" class="tasks-area__list tasks-area__completed-tasks">
+        <li class="tasks-area__list-item">
+          <input type="checkbox" class="tasks-area__checkbox" checked>
+          <label class="tasks-area__label-task-name">See the Doctor</label>
+          <input type="text" class="tasks-area__input-text">
+          <button class="tasks-area__button tasks-area__button-edit">Edit</button>
+          <button class="tasks-area__button tasks-area__button-delete"><img src="./remove.svg" class="tasks-area__btn-img"></button>
+        </li>
+      </ul>
+    </section>
+
+  </main>
 
   <script src="app.js"></script>
 </body>
