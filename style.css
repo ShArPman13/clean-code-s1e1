@@ -22,7 +22,7 @@
 
 @media (max-width:768px) {
 
-  .top-part{
+  .top-part {
     text-align: center;
   }
 }
@@ -54,7 +54,7 @@
 }
 
 .tasks-area__input-text,
-.tasks-area__button{
+.tasks-area__button {
   outline: none;
 }
 
@@ -73,7 +73,7 @@
 }
 
 /* Heading */
-.tasks-area__title{
+.tasks-area__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -124,7 +124,7 @@
   vertical-align: middle;
 }
 
-.tasks-area__checkbox{
+.tasks-area__checkbox {
   margin: 0 10px;
 }
 
