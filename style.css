@@ -25,6 +25,7 @@
   .top-part {
     text-align: center;
   }
+
 }
 
 .todo-list__tasks-area {
@@ -33,13 +34,15 @@
   margin: 0 auto 0;
 }
 
-.tasks-area__text {
+.tasks-area__text,
+.tasks-area__label-task-name,
+.tasks-area__input-text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-area__wrapper {
+.tasks-area__wrapper {
   display: flex;
 }
 
